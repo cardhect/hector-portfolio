@@ -8,12 +8,17 @@ body {
     justify-content: center;
     align-items: center;
 }
+p {
+    font-family: 'League Spartan Variable';
+    font-weight: normal;
+}
 
+li {
+    font-family: 'League Spartan Variable';
+    font-weight: normal;
+}
 h3 {
     font-family: 'League Spartan Variable';
-
-}
-p {
 
 }
 
@@ -66,7 +71,8 @@ a:hover {
     padding: 10px;
     border-radius: 10px;
     width: 200px;
-    height: 150px;
+    /* height: 170px; */
+    height: 25vh;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -76,6 +82,7 @@ a:hover {
 
 .project-desc{
     margin-top: 10%;
+    font-family: 'League Spartan Variable';
 }
 
 .profile-img {
@@ -83,6 +90,7 @@ a:hover {
     width: 50%;
     object-fit: cover;
     border-radius: 10px;
+
 }
 
 .projects-container {
@@ -97,16 +105,35 @@ a:hover {
     padding: 10px;
     border-radius: 10px;
     width: 200px;
-    height: 150px;
+    /* height: 170px; */
+    height: 25vh;
     min-width: 0;
     align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
 }
 
 .project-img {
     height: 100px;
     width: 100%;
+    border-radius: 5px;
 }
 
+.project-icon{
+    position: absolute;
+    margin-bottom: 73%;
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    margin-left: -10px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: arial;
+
+}
 
 /* Specific project css  */
 
@@ -122,4 +149,32 @@ a:hover {
 
 .gifcast-p{
     font-size: smaller;
+}
+
+/* Mobile Css */
+@media screen and (max-width: 700px) {
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @media screen and (max-width: 550px) {
+        .main-section{
+            justify-content: space-between;
+        }
+        .profile {
+            width: 100%;
+        }
+        .project-item {
+            width: 42%;
+            margin: 1%;
+
+        }
+        @media screen and (max-width: 350px) {
+            .project-item {
+                width: 100%;
+            }
+        }
+    }
 }
