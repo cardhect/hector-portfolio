@@ -30,13 +30,32 @@ a:hover {
     color: rgb(117, 154, 223);
 }
 
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info-section {
+    display: flex; 
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+.info-title {
+    margin-top: 4%;
+    margin-bottom: 3% !important;
+}
+
 .title-link {
     display: flex;
     flex-direction: row;
 }
 
 .gif-img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .about {
@@ -70,7 +89,7 @@ a:hover {
     background-color: #e3e3e3;
     padding: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     /* height: 170px; */
     height: 25vh;
     grid-column-start: 2;
@@ -90,7 +109,6 @@ a:hover {
     width: 50%;
     object-fit: cover;
     border-radius: 10px;
-
 }
 
 .projects-container {
@@ -104,11 +122,11 @@ a:hover {
     background-color: #e3e3e3;
     padding: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     /* height: 170px; */
     height: 25vh;
     min-width: 0;
-    align-items: baseline;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,8 +135,12 @@ a:hover {
 
 .project-img {
     height: 100px;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 5px;
+    align-self: center;
+}
+.project-img:hover {
+    border: 2px solid blue;
 }
 
 .project-icon{
@@ -145,6 +167,10 @@ a:hover {
 }
 .gifcast-h3{
     margin-top: 5px;
+    color: black;
+}
+.gifcast-h3:hover{
+    color: blue;
 }
 
 .gifcast-p{
@@ -153,6 +179,15 @@ a:hover {
 
 /* Mobile Css */
 @media screen and (max-width: 700px) {
+    .project-item, .profile {
+        width: 200px;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .about-section {
+        height: fit-content;
+    }
     .main-section{
         display: flex;
         flex-direction: row;
