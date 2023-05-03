@@ -1,387 +1,427 @@
+
 @font-face {
-	font-family: "League Spartan Variable";
-	src: url("LeagueSpartan-VF.woff2") format("woff2-variations");
-	font-weight: 200 900;
+    font-family: 'League Spartan Variable';
+    src: url('LeagueSpartan-VF.woff2') format('woff2-variations');
+    font-weight: 200 900;
 }
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 p {
-	font-family: "League Spartan Variable";
-	font-weight: normal;
+    font-family: 'League Spartan Variable';
+    font-weight: normal;
 }
 
 li {
-	font-family: "League Spartan Variable";
-	font-weight: normal;
+    font-family: 'League Spartan Variable';
+    font-weight: normal;
 }
 h3 {
-	font-family: "League Spartan Variable";
+    font-family: 'League Spartan Variable';
+
 }
 
 a {
-	text-decoration: none;
-	color: blue;
+    text-decoration: none;
+    color: blue;
 }
 a:hover {
-	color: rgb(117, 154, 223);
+    color: rgb(117, 154, 223);
 }
 
 li {
-	list-style: none;
-	margin-bottom: 10px;
+    list-style: none;
+    margin-bottom: 10px;
 }
 ul {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .info-section {
-	display: flex;
-	align-items: flex-start !important;
-	justify-content: flex-start !important;
+    display: flex;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
 }
 .info-title {
-	margin-top: 4%;
-	margin-bottom: 3% !important;
-	align-self: center;
+    margin-top: 4%;
+    margin-bottom: 3% !important;
+    align-self: center;
 }
 
 .title-link {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
-
+/* .gif-img { */
+    /* width: 100%; */
+/* } */
 
 .about {
-	margin: 0;
-	position: absolute;
-	z-index: 99;
-	color: black;
-	text-align: center;
+    margin: 0;
+    position: absolute;
+    z-index: 99;
+    color: black;
+    text-align: center;
 }
 
 .name-title {
-	font-family: "League Spartan Variable";
-	margin: 0;
+    font-family: 'League Spartan Variable';
+    margin: 0;
 }
-.job-title {
-	font-family: "League Spartan Variable";
-	font-variation-settings: "wght" 375;
-	margin: 5px;
+.job-title{
+    font-family: 'League Spartan Variable';
+    font-variation-settings: "wght" 375;
+    margin: 5px;
 }
 
 .main-section {
-	display: grid;
-	grid-template-columns: repeat(4, 230px);
-	grid-template-rows: repeat(6, 137px);
-	justify-items: center;
-	align-items: center;
-	gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(6, 137px);
+    /* justify-content: center;
+    align-items: center;
+    justify-items: center; */
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+}
+.main-item {
+    /* margin: 5px; */
 }
 
 .profile {
-	display: flex;
-	flex-direction: row;
-	background-color: #e3e3e3;
-	border-radius: 10px;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	grid-row-start: 3;
-	grid-row-end: 5;
-	justify-content: center;
-	align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    background-color: #e3e3e3;
+    /* padding: 10px; */
+    border-radius: 10px;
+    /* width: 300px; */
+    height: -webkit-fill-available;
+    /* height: 25vh; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .project-tag {
-	position: absolute;
-	margin-bottom: 0px;
-	background-color: #ff3f3f;
-	padding: 6px;
-	color: white;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+    position: absolute;
+    margin-bottom: 0px;
+    background-color: #ff3f3f;
+    padding: 6px;
+    /* border-radius: 7px; */
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.project-desc {
-	margin-top: 10%;
-	font-family: "League Spartan Variable";
+.project-desc{
+    margin-top: 10%;
+    font-family: 'League Spartan Variable';
 }
 
 .profile-img {
-	height: 100%;
-	object-fit: cover;
-	border-radius: 10px;
-	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .projects-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .project-item {
-	background-color: #e3e3e3;
-	padding: 10px;
-	border-radius: 10px;
-	width: 210px;
-
-	height: -webkit-fill-available;
-	min-width: 0;
-	display: flex;
-	justify-content: center;
-	position: relative;
-	flex-direction: column;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    width: 210px;
+    /* height: 170px; */
+    height: -webkit-fill-available;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    /* grid-column-start: 3; */
+    /* grid-column-end: 4; */
+    /* grid-row-start: 4; */
+    /* grid-row-end: 5; */
 }
 
 .project-img {
-	height: 100px;
-	width: 100%;
-	border-radius: 5px;
-	align-self: center;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    align-self: center;
 }
 .project-img:hover {
-	border: 2px solid blue;
+    border: 2px solid blue;
 }
 
-.project-icon {
-	position: absolute;
-	margin-bottom: 73%;
-	background-color: blue;
-	color: white;
-	margin-top: 0;
-	margin-left: -10px;
-	padding: 5px;
-	border-top-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	font-family: arial;
+.project-icon{
+    position: absolute;
+    margin-bottom: 73%;
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    margin-left: -10px;
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: arial;
+
 }
+
 
 /* Specific project css  */
 
+
 /* GifCast */
 .gif-img {
-	width: 100%;
-	border-radius: 10px;
+    width: 100%;
+    border-radius: 10px;
 }
 .gifcast {
-	display: flex;
-	height: -webkit-fill-available;
-	width: auto;
-	padding: 0;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 1;
-	grid-row-end: 3;
-	justify-self: end;
-	align-items: flex-end;
-	justify-content: center;
+    display: flex;
+    height: -webkit-fill-available;
+    width: auto;
+    padding: 0;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-self: end;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.gifcast-h3 {
-	margin-top: 5px;
-	color: black;
+.gifcast-h3{
+    margin-top: 5px;
+    color: black;
 }
-.gifcast-h3:hover {
-	color: blue;
+.gifcast-h3:hover{
+    color: blue;
 }
 
-.gifcast-p {
-	font-size: smaller;
+.gifcast-p{
+    font-size: smaller;
 }
+
 
 /* Next up */
 .next-up-img {
-	height: 100%;
-	border-radius: 10px;
+    height: 100%;
+    border-radius: 10px;
 }
 .next-up-section {
-	height: fit-content;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 4;
-	grid-row-end: 6;
-	display: flex;
-	height: 145%;
-	align-self: flex-start;
-	justify-self: end;
-	justify-content: center;
-	align-items: flex-end;
+    height: fit-content;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: flex;
+    height: 145%;
+    align-self: flex-start;
+    justify-self: end;
+    justify-content: center;
+    align-items: flex-end;
 }
+
+
 
 /* Tasc */
 .tasc-img {
-	height: fit-content;
-	object-fit: contain;
-	object-position: top;
+    height: fit-content;
+    object-fit: contain;
+    object-position: top;
 }
 .tasc-section {
-	height: fit-content;
-	grid-column-start: 2;
-	grid-column-end: 4;
-	grid-row-start: 5;
-	grid-row-end: 7;
-	align-self: baseline;
-	justify-self: baseline;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
+    height: fit-content;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    align-self: baseline;
+    justify-self: baseline;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 /* Burritos La Chiquita */
 .blc-img {
-	height: 45%;
+    height: 45%;
+    
 }
 .blc-section {
-	height: fit-content;
-	grid-column-start: 3;
-	grid-column-end: 6;
-	align-self: flex-end;
-	display: flex;
-	/* margin-left: 18px; */
-	justify-self: flex-start;
-	align-items: flex-end;
-	justify-content: center;
-	flex-direction: row;
+    height: fit-content;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    align-self: flex-end;
+    display: flex;
+    /* margin-left: 18px; */
+    justify-self: flex-start;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
 }
+
 
 /* Dev Skills  */
 .skills-icon-container {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .dev-skills-section {
-	background-color: #e3e3e3;
-	padding: 10px;
-	border-radius: 10px;
-	width: auto;
-	/* height: 170px; */
-	height: -webkit-fill-available;
-	min-width: 0;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	position: relative;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	grid-row-start: 3;
-	grid-row-end: 4;
-	justify-self: end;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    /* height: 170px; */
+    height: -webkit-fill-available;
+    min-width: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: end;
+    
 }
+
 
 /* Fun Facts */
 .fun-facts-section {
-	background-color: #e3e3e3;
-	padding: 10px;
-	border-radius: 10px;
-	width: auto;
-	/* height: 170px; */
-	height: fit-content;
-	min-width: 0;
-	position: relative;
-	grid-column-start: 4;
-	grid-column-end: 5;
-	grid-row-start: 4;
-	grid-row-end: 7;
-	display: flex;
-	align-self: baseline;
-	flex-direction: column;
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    width: auto;
+    /* height: 170px; */
+    height: fit-content;
+    min-width: 0;
+    position: relative;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    display: flex;
+    align-self: baseline;
+    flex-direction: column;
 }
+
 
 /* About Section */
 .about-section {
-	grid-column-start: 2;
-	grid-column-end: 4;
-	grid-row-start: 1;
-	grid-row-end: 3;
-	align-self: center;
-	justify-self: flex-start;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: flex-start;
 }
 
 /* Soft Skills */
 .soft-skills-section {
-	grid-column-start: 3;
-	grid-column-end: 4;
-	grid-row-start: 4;
-	grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
 }
 
 .soft-skills-ul {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	list-style: circle;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: circle;
 }
 .soft-skills-li {
-	margin: 6px;
-	margin-left: 0;
+    margin: 6px;
+    margin-left: 0;
 }
+
 
 /* Mobile Css */
 @media screen and (max-width: 960px) {
-	.about-section {
-		width: 100%;
-	}
-	.profile {
-		width: fit-content;
-	}
-	.profile-img {
-		height: 250px;
-		object-fit: contain;
-	}
-	.project-img {
-		width: 100%;
-	}
-	.about-section {
-		height: 165px;
-		padding: 20px;
-	}
-	.main-section {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-	.dev-skills-section {
-		height: 113px;
-		width: 40%;
-	}
-	.soft-skills-section {
-		height: 113px;
-		width: 50%;
-	}
-	.fun-facts-section {
-		width: 100%;
-		align-items: center;
-	}
-	.next-up-img {
-		height: 416px;
-		border-radius: 10px;
-	}
-	.gifcast {
-		width: 310px !important;
-	}
-	.gif-img {
-		width: 100%;
-	}
+    .about-section {
+        width: 100%;
+    }
+    .project-item, .profile {
+        
+    }
+    .profile {
+        width: fit-content;
+    }
+    .profile-img {
+        height: 250px;
+        object-fit: contain;
+    }
+    .project-img {
+        width: 100%;
+    }
+    .about-section {
+        height: 165px;
+        padding: 20px;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .dev-skills-section {
+        height: 113px;
+        width: 40%;
+    }
+    .soft-skills-section{
+        height: 113px;
+        width: 50%;
+    }
+    .fun-facts-section {
+        width: 100%;
+        align-items: center;
+    }
+    .next-up-img {
+        height: 416px;
+        border-radius: 10px;
+    }
+    .gifcast {
+        width: 310px !important;
+    }
+    .gif-img {
+        width: 100%;
+    }
 
-	@media screen and (max-width: 550px) {
-		.about-section {
-			height: fit-content;
-		}
-		.dev-skills-section {
-			height: 113px;
-			width: 100%;
-		}
-		.soft-skills-section {
-			height: 113px;
-			width: 100%;
-		}
-	}
+    @media screen and (max-width: 550px) {
+        .about-section {
+            height: fit-content;
+        }
+        .dev-skills-section {
+            height: 113px;
+            width: 100%;
+        }
+        .soft-skills-section{
+            height: 113px;
+            width: 100%;
+        }
+
+        /* @media screen and (max-width: 350px) {
+            .project-item {
+                width: 100%;
+            }
+        } */
+    }
 }
