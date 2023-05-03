@@ -1,133 +1,115 @@
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Hector Cardenas Portfolio</title>
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Hector Cardenas Portfolio</title>
-</head>
+	<body>
+		<section class="main-section">
+			<div class="profile main-item">
+				<img
+					class="profile-img"
+					src="./images/hector-profile-squared.jpg"
+					alt=""
+				/>
+				<div class="about">
+					<h2 class="name-title">Hector Cardenas</h2>
+					<h3 class="job-title">Front End Developer</h3>
+				</div>
+			</div>
+			<div class="project-item main-item info-section about-section">
+				<h3 class="info-title" style="margin-bottom: 1px">About Me</h3>
+				<p style="margin: 0">Hello!, I'm Hector!</p>
+				<p style="margin-top: 0; line-height: 17px; text-indent: 20px">
+					I am currently learning the world of web development. At this moment I
+					have been focused on mastering frontend technologies, but I am excited
+					to explore the backend side of things. I have been teaching myself web
+					development through the course The Odin Project. I enjoy creating
+					projects and I especially love solving problems!
+				</p>
+			</div>
+			<div class="dev-skills-section">
+				<ul class="skills-icon-container">
+					<li><img src="images/js-icon.png" alt="" /></li>
+					<li><img src="images/html-icon.png" alt="" /></li>
+					<li><img src="images/css-icon.png" alt="" /></li>
+					<li><img src="images/git-icon.png" alt="" /></li>
+				</ul>
+				<h3 class="info-title">Development Skills</h3>
+			</div>
+			<div class="project-item main-item info-section soft-skills-section">
+				<h3 class="info-title">Soft Skills</h3>
+				<ul class="soft-skills-ul">
+					<li class="soft-skills-li">Grit</li>
+					<li class="soft-skills-li">Problem Solving</li>
+					<li class="soft-skills-li">Communication</li>
+					<li class="soft-skills-li">Dependable</li>
+					<li class="soft-skills-li">Adaptability</li>
+				</ul>
+			</div>
+			<div class="fun-facts-section">
+				<h3 class="info-title">Fun Facts</h3>
+				<ul>
+					<li>
+						<img src="images/rock-climbing.png" alt="" /> I love bouldering.
+					</li>
+					<li>
+						<img src="images/motorcycle.png" alt="" /> I enjoy cruising on my
+						motorcycle.
+					</li>
+					<li>
+						<img src="images/fashion.png" alt="" /> I have a passion for
+						fashion.
+					</li>
+					<li>
+						<img src="images/planet.png" alt="" /> I love learning about physics
+						and space.
+					</li>
+					<li><img src="images/anime.png" alt="" /> I enjoy anime.</li>
+				</ul>
+			</div>
 
-<body>
-    <section class="main-section">
-        <div class="profile main-item">
-            <img class="profile-img" src="./images/hector-profile-squared.jpg" alt="">
-            <div class="about">
-                <h2 class="name-title">Hector Cardenas</h2>
-                <h3 class="job-title">Front End Developer</h3>
-                <p>I'm always aspiring to learn more to improve my craft.</p>
-            </div>
-        </div>
-        <div class="project-item main-item gifcast">
-            <!-- <p class="project-icon">Project</p> -->
-            <a style="align-self: center;" href="https://gifcast.netlify.app/" target="_blank">
-                <img class="gif-img project-img" src="./images/gifcast-top.png" alt="">
-            </a>
-            <div class="project-desc">
-                <div class="title-link">
-                    <a href="https://gifcast.netlify.app/" target="_blank">
-                        <h3 class="gifcast-h3" style="margin: 0">GifCast</h3>
-                    </a>
-                </div>
-                <p class="giftcast-p" style="margin: 0">Weather app with Gifs!</p>
-            </div>
-        </div>
-        <div class="project-item main-item info-section about-section">
-            <h3 class="info-title" style="margin-bottom: 1px;">About Me</h3>
-            <p style="margin: 0;">Hello!, I'm Hector!</p>
-            <p style="margin-top: 0; line-height: 17px;">I am currently learning the world of web development. At this moment I have been focused on mastering frontend technologies, but I am excited to explore the backend side of things. I have been teaching myself web development through the course The Odin Project. I enjoy creating projects and I especially love solving problems!</p>
-        </div>
-        <div class="project-item main-item">
-            <!-- <p class="project-icon">Project</p> -->
-            <a style="align-self: center;" href="https://tasc-app.netlify.app" target="_blank">
-                <img class="project-img" src="./images/tasc-logo.png" alt="">
-            </a>
+			<div class="gifcast">
+                <a href="https://gifcast.netlify.app/" target="_blank">
+                    <img class="gif-img" src="./images/gifcast-full.png" alt="" />
+                </a>
+				<h3 class="project-tag" style="margin-bottom: 1px">Project</h3>
+			</div>
+			<div class="next-up-section">
+				<!-- <p class="project-icon">Project</p> -->
+				<a href="https://nextup-convo.netlify.app" target="_blank">
+                    <img class="next-up-img" src="./images/nextup-timer-view.png" alt="" />
+        
+                </a>
 
-            <div class="project-desc">
-                <div class="title-link">
-                    <a style="align-self: center;" href="https://tasc-app.netlify.app" target="_blank">
-                        <h3 class="gifcast-h3" style="margin: 0">Tasc.</h3>
-                    </a>
+				<h3 class="project-tag">Project</h3>
+			</div>
 
-                </div>
-                <p class="giftcast-p" style="margin: 0">Reminders app similar to apple reminders.</p>
-            </div>
-        </div>
-        <div class="project-item main-item info-section">
-            <h3 class="info-title">Development Skills</h3>
-            <ul>
-                <li>JS</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Git</li>
-                <li>Debugging</li>
-            </ul>
+			<div class="blc-section">
+                <a href="https://burritoslachiq.netlify.app/" target="_blank">
+                    <img
+                        class="project-img blc-img"
+                        src="./images/blc-site-view.png"
+                        alt=""
+                    />
+                </a>
+				<h3 class="project-tag">Project</h3>
+			</div>
+			<div class="tasc-section">
+                <a href="https://tasc-app.netlify.app/" target="_blank">
+                    <img
+                        class="project-img tasc-img"
+                        src="./images/tasc-full-view.png"
+                        alt=""
+                    />
+                </a>
+				<h3 class="project-tag">Project</h3>
+			</div>
+		</section>
 
-        </div>
-
-        <div class="project-item main-item info-section">
-            <h3 class="info-title">Soft Skills</h3>
-            <ul>
-                <li>Grit</li>
-                <li>Problem Solving</li>
-                <li>Communication</li>
-                <li>Dependable</li>
-                <li>Adaptability</li>
-            </ul>
-
-        </div>
-        <div class="project-item main-item">
-            <!-- <p class="project-icon">Project</p> -->
-            <a style="align-self: center;" href="https://nextup-convo.netlify.app" target="_blank">
-                <img class="project-img" src="./images/passthestick-logo.png" alt="">
-            </a>
-            <div class="project-desc">
-                <div class="title-link">
-                    <a href="https://nextup-convo.netlify.app" target="_blank">
-                        <h3 class="gifcast-h3" style="margin: 0">Next Up</h3>
-                    </a>
-
-                </div>
-                <p class="giftcast-p" style="margin: 0">Timer app for debates or conversations.</p>
-            </div>
-
-        </div>
-
-        <!--  -->
-        <div class="project-item main-item info-section">
-            <h3 class="info-title">Fun Facts</h3>
-            <ul>
-                <li>I love bouldering.</li>
-                <li>I enjoy cruising on my motorcycle.</li>
-                <li>I have a passion for fashion.</li>
-                <li>I love learning about physics and space.</li>
-                <li>I enjoy anime.</li>
-            </ul>
-        </div>
-        <div class="project-item main-item">
-            <!-- <p class="project-icon">Project</p> -->
-            <a style="align-self: center;" href="https://burritoslachiq.netlify.app" target="_blank">
-                <img class="project-img" src="./images/blc-logo.png" alt="">
-            </a>
-            <div class="project-desc">
-                <div class="title-link">
-                    <a href="https://burritoslachiq.netlify.app" target="_blank">
-                        <h3 class="gifcast-h3" style="margin: 0">Burritos La Chiquita</h3>
-                    </a>
-
-                </div>
-                <p class="giftcast-p" style="margin: 0">Local restaurant website.</p>
-            </div>
-
-        </div>
-
-
-
-
-    </section>
-
-
-    <script src="bundle.js"></script>
-</body>
-
+		<script src="bundle.js"></script>
+	</body>
 </html>
