@@ -86,7 +86,7 @@ ul {
     align-items: center;
     justify-items: center; */
     justify-items: center;
-    align-items: center;
+    align-items: stretch;
     gap: 8px;
 }
 .main-item {
@@ -100,8 +100,7 @@ ul {
     /* padding: 10px; */
     border-radius: 10px;
     /* width: 300px; */
-    height: -webkit-fill-available;
-    /* height: 25vh; */
+    height: auto;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -146,7 +145,7 @@ ul {
     border-radius: 10px;
     width: 210px;
     /* height: 170px; */
-    height: -webkit-fill-available;
+    height: auto;
     min-width: 0;
     display: flex;
     justify-content: center;
@@ -190,10 +189,11 @@ ul {
 .gif-img {
     width: 100%;
     border-radius: 10px;
+    height: 100%;
 }
 .gifcast {
     display: flex;
-    height: -webkit-fill-available;
+    height: auto;
     width: auto;
     padding: 0;
     grid-column-start: 1;
@@ -241,7 +241,7 @@ ul {
 
 /* Tasc */
 .tasc-img {
-    height: fit-content;
+    height: auto;
     object-fit: contain;
     object-position: top;
 }
@@ -259,7 +259,7 @@ ul {
 }
 /* Burritos La Chiquita */
 .blc-img {
-    height: 45%;
+    height: auto;
     
 }
 .blc-section {
@@ -288,7 +288,7 @@ ul {
     border-radius: 10px;
     width: auto;
     /* height: 170px; */
-    height: -webkit-fill-available;
+    height: auto;
     min-width: 0;
     align-items: center;
     display: flex;
@@ -359,15 +359,13 @@ ul {
     .about-section {
         width: 100%;
     }
-    .project-item, .profile {
-        
-    }
     .profile {
         width: fit-content;
     }
     .profile-img {
         height: 250px;
         object-fit: contain;
+        width: auto;
     }
     .project-img {
         width: 100%;
@@ -393,6 +391,7 @@ ul {
     .fun-facts-section {
         width: 100%;
         align-items: center;
+        width: auto;
     }
     .next-up-img {
         height: 416px;
